@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1762351436495" clover="3.2.0">
-  <project timestamp="1762351436495" name="All files">
-    <metrics statements="105" coveredstatements="91" conditionals="19" coveredconditionals="7" methods="24" coveredmethods="19" elements="148" coveredelements="117" complexity="0" loc="105" ncloc="105" packages="6" files="8" classes="8"/>
+<coverage generated="1762893107258" clover="3.2.0">
+  <project timestamp="1762893107259" name="All files">
+    <metrics statements="105" coveredstatements="105" conditionals="19" coveredconditionals="14" methods="24" coveredmethods="24" elements="148" coveredelements="143" complexity="0" loc="105" ncloc="105" packages="6" files="8" classes="8"/>
     <package name="src">
       <metrics statements="7" coveredstatements="7" conditionals="10" coveredconditionals="5" methods="0" coveredmethods="0"/>
-      <file name="data-source.ts" path="C:\Users\guilh\Downloads\simple-articles-crud\src\data-source.ts">
+      <file name="data-source.ts" path="C:\Users\guilh\dev\simple-articles-crud\src\data-source.ts">
         <metrics statements="7" coveredstatements="7" conditionals="10" coveredconditionals="5" methods="0" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -16,35 +16,35 @@
       </file>
     </package>
     <package name="src.articles">
-      <metrics statements="20" coveredstatements="15" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="4"/>
-      <file name="articles.service.ts" path="C:\Users\guilh\Downloads\simple-articles-crud\src\articles\articles.service.ts">
-        <metrics statements="20" coveredstatements="15" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="4"/>
+      <metrics statements="20" coveredstatements="20" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+      <file name="articles.service.ts" path="C:\Users\guilh\dev\simple-articles-crud\src\articles\articles.service.ts">
+        <metrics statements="20" coveredstatements="20" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="24" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
+        <line num="8" count="12" type="stmt"/>
+        <line num="9" count="12" type="stmt"/>
+        <line num="12" count="9" type="stmt"/>
+        <line num="13" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="8" type="stmt"/>
+        <line num="15" count="8" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="23" count="9" type="stmt"/>
+        <line num="24" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.auth">
-      <metrics statements="17" coveredstatements="16" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
-      <file name="auth.service.ts" path="C:\Users\guilh\Downloads\simple-articles-crud\src\auth\auth.service.ts">
-        <metrics statements="17" coveredstatements="16" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
+      <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="auth.service.ts" path="C:\Users\guilh\dev\simple-articles-crud\src\auth\auth.service.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
@@ -53,20 +53,20 @@
         <line num="9" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="15" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
       </file>
     </package>
     <package name="src.entities">
       <metrics statements="29" coveredstatements="29" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
-      <file name="article.entity.ts" path="C:\Users\guilh\Downloads\simple-articles-crud\src\entities\article.entity.ts">
+      <file name="article.entity.ts" path="C:\Users\guilh\dev\simple-articles-crud\src\entities\article.entity.ts">
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -78,7 +78,7 @@
         <line num="18" count="3" type="stmt"/>
         <line num="19" count="3" type="stmt"/>
       </file>
-      <file name="permission.entity.ts" path="C:\Users\guilh\Downloads\simple-articles-crud\src\entities\permission.entity.ts">
+      <file name="permission.entity.ts" path="C:\Users\guilh\dev\simple-articles-crud\src\entities\permission.entity.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -89,7 +89,7 @@
         <line num="15" count="3" type="stmt"/>
         <line num="16" count="3" type="stmt"/>
       </file>
-      <file name="user.entity.ts" path="C:\Users\guilh\Downloads\simple-articles-crud\src\entities\user.entity.ts">
+      <file name="user.entity.ts" path="C:\Users\guilh\dev\simple-articles-crud\src\entities\user.entity.ts">
         <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -106,41 +106,41 @@
       </file>
     </package>
     <package name="src.users">
-      <metrics statements="27" coveredstatements="19" conditionals="5" coveredconditionals="1" methods="7" coveredmethods="4"/>
-      <file name="users.service.ts" path="C:\Users\guilh\Downloads\simple-articles-crud\src\users\users.service.ts">
-        <metrics statements="27" coveredstatements="19" conditionals="5" coveredconditionals="1" methods="7" coveredmethods="4"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="10" count="3" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="30" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
-        <line num="36" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
+      <metrics statements="27" coveredstatements="27" conditionals="5" coveredconditionals="5" methods="7" coveredmethods="7"/>
+      <file name="users.service.ts" path="C:\Users\guilh\dev\simple-articles-crud\src\users\users.service.ts">
+        <metrics statements="27" coveredstatements="27" conditionals="5" coveredconditionals="5" methods="7" coveredmethods="7"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="34" type="stmt"/>
+        <line num="10" count="34" type="stmt"/>
+        <line num="13" count="20" type="stmt"/>
+        <line num="14" count="20" type="stmt"/>
+        <line num="15" count="20" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="19" type="stmt"/>
+        <line num="17" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="19" type="stmt"/>
+        <line num="21" count="19" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="29" count="13" type="stmt"/>
+        <line num="30" count="13" type="cond" truecount="1" falsecount="0"/>
+        <line num="31" count="9" type="stmt"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="36" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="39" count="5" type="stmt"/>
+        <line num="40" count="5" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="49" count="4" type="stmt"/>
       </file>
     </package>
     <package name="test">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="test-datasource.ts" path="C:\Users\guilh\Downloads\simple-articles-crud\test\test-datasource.ts">
+      <file name="test-datasource.ts" path="C:\Users\guilh\dev\simple-articles-crud\test\test-datasource.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
