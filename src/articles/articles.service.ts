@@ -11,8 +11,8 @@ export class ArticlesService {
   async create(payload: {title:string, content:string, userId:string}) {
     const user = await this.userRepo.findOneBy({ id: payload.userId });
     if (!user) throw new NotFoundException('Author not found');
-    const art = this.repo.create({ title: payload.title, content: payload.content, author: user });
-    return this.repo.save(art);
+    const article = this.repo.create({ title: payload.title, content: payload.content, author: user });
+    return this.repo.save(article);
   }
 
   async findAll() {
@@ -20,19 +20,19 @@ export class ArticlesService {
   }
 
   async findOne(id: string) {
-    const a = await this.repo.findOneBy({ id });
-    if (!a) throw new NotFoundException();
-    return a;
+    const article = await this.repo.findOneBy({ id });
+    if (!article) throw new NotFoundException();
+    return article;
   }
 
   async update(id:string, payload: Partial<Article>) {
-    const art = await this.findOne(id);
-    Object.assign(art, payload);
-    return this.repo.save(art);
+    const article = await this.findOne(id);
+    Object.assign(article, payload);
+    return this.repo.save(article);
   }
 
   async remove(id:string) {
-    const art = await this.findOne(id);
-    return this.repo.remove(art);
+    const article = await this.findOne(id);
+    return this.repo.remove(article);
   }
 }

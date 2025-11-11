@@ -23,17 +23,17 @@ describe('ArticlesService (unit)', () => {
     const userRepo = TestDataSource.getRepository('User');
     const user = await userRepo.save({ name: 'ArtUser', email: 'art@example.com', password: 'pw', permission: perm });
 
-    const svc = new ArticlesService();
-    (svc as any).repo = TestDataSource.getRepository('Article');
-    (svc as any).userRepo = TestDataSource.getRepository('User');
+    const articleSvc = new ArticlesService();
+    (articleSvc as any).repo = TestDataSource.getRepository('Article');
+    (articleSvc as any).userRepo = TestDataSource.getRepository('User');
 
-    const art = await svc.create({ title: 'T', content: 'C', userId: user.id });
+    const art = await articleSvc.create({ title: 'T', content: 'C', userId: user.id });
     expect(art.title).toBe('T');
 
-    const found = await svc.findOne(art.id);
+    const found = await articleSvc.findOne(art.id);
     expect(found.title).toBe('T');
 
-    const all = await svc.findAll();
+    const all = await articleSvc.findAll();
     expect(all.length).toBeGreaterThan(0);
   });
 });
