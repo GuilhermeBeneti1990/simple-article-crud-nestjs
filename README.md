@@ -5,7 +5,7 @@ Este repositório contém um projeto NestJS minimalista que implementa:
 - Cadastro, edição, exclusão e leitura de artigos
 - Autenticação via JWT (rota /auth/login)
 - Permissões (ADMIN, EDITOR, READER) criadas via seed
-- Usuário root criado via seed (ver .env for credentials)
+- Usuário root criado via seed (ver .env para credenciais)
 
 Como executar:
 1. Copie `.env.example` para `.env` e ajuste se necessário.
